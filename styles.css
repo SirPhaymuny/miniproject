@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jolly+Lodger&display=swap');
+
+* {
+    color: black;
+}
+
+.card,
+h2,
+h3 {
+    font-family: "Jolly Lodger", system-ui;
+}
+
+.background-image {
+    background-image: url('./IMG_5383.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.waveWrapper {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    height: 100%;
+    background: url('./wave.svg') repeat-x;
+    transform-origin: center bottom;
+}
+
+.waveAnimation {
+    animation: moveWave 15s linear infinite;
+}
+
+@keyframes moveWave {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
