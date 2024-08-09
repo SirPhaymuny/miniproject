@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <title>check out page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="bg-white dark:bg-white w-full sticky top-0 bg-white shadow-md z-50 start-0 border-b border-gray-200 dark:border-gray-600"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:p-2"
+        >
+          <!-- <img src="./_.jpeg" class="rounded-full sm:w-14 sm:h-14 lg:w-20 lg:h-20 w-20 h-20" alt="Flowbite Logo"> -->
+          <div class="flex flex-wrap">
+            <img
+              src="./image/ripndip-logo-black.avif"
+              class="h-12 w-28"
+              alt="Flowbite Logo"
+            />
+            <img
+              src="./image/Nerm-attack-mouse.webp"
+              class="h-12"
+              alt="Flowbite Logo"
+            />
+          </div>
+
+          <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
+            <button
+              type="button"
+              class="text-white bg-black font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 space-x-1"
+            >
+              <i class="fa-solid fa-cart-plus me-2" style="color: white"></i>
+              Buy now
+            </button>
+          </div>
+
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-sticky"
+          >
+            <ul
+              class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="hover:underline block py-2 px-3 text-2xl bg-blue-700 rounded md:bg-transparent md:p-0"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:underline block py-2 px-3 text-2xl text-gray-900 rounded md:hover:bg-transparent md:p-0 dark:text-black dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:underline block py-2 px-3 text-2xl text-gray-900 rounded md:hover:bg-transparent md:p-0 dark:text-black dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:underline block py-2 px-3 text-2xl text-gray-900 rounded md:hover:bg-transparent md:p-0 dark:text-black dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="lg:mx-40">
+        <div
+          class="grid-container grid lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 w-full max-h-lg lg:gap-3 md:gap-2"
+        >
+          <div
+            class="flex flex-col h-full w-full gap-5 justify-center border-2 border-gray-300 my-10 px-10 py-10 rounded"
+          >
+            <div class="border-2 border-gray-300 rounded py-2 px-2">
+              <div class="flex flex-row w-full h-fit gap-10 items-center">
+                <img
+                  src="./image/IMG_5368.webp"
+                  class="w-20 h-20 border-2 border-gray-300"
+                  alt=""
+                />
+                <div class="flex flex-col px-2 w-full">
+                  <h4 class="uppercase text-xl">is that black jacket</h4>
+                  <h4 class="text-center text-sm text-gray-400 line-through">
+                    $80
+                  </h4>
+                  <div class="flex justify-between items-center">
+                    <h4 class="text-center text-sm text-gray-400">$79</h4>
+                    <i
+                      class="fa-solid fa-trash-can fa-xs"
+                      style="color: #ff0000"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-row w-full h-fit gap-10 items-center">
+                <img
+                  src="./image/IMG_5368.webp"
+                  class="w-20 h-20 border-2 border-gray-300 mt-5"
+                  alt=""
+                />
+                <div class="flex flex-col px-2 w-full">
+                  <h4 class="uppercase text-xl">is that black jacket</h4>
+                  <h4 class="text-center text-sm text-gray-400 line-through">
+                    $80
+                  </h4>
+                  <div class="flex justify-between items-center">
+                    <h4 class="text-center text-sm text-gray-400">$79</h4>
+                    <i
+                      class="fa-solid fa-trash-can fa-xs"
+                      style="color: #ff0000"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-row gap-10 items-center">
+              <h5 class="lg:text-xl text-md">Available Shipping Method</h5>
+              <i
+                class="fa-solid fa-circle-exclamation"
+                style="color: #63e6be"
+              ></i>
+            </div>
+
+            <!-- delivery option -->
+            <div class="flex flex-col justify-center h-full gap-5">
+              <!-- deli 1 -->
+              <div
+                class="flex flex-row items-center gap-10 border-2 border-gray-300 rounded py-1 px-1"
+              >
+                <img
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/color/48/amazon.png"
+                  alt="amazon"
+                />
+                <div class="flex flex-col">
+                  <h5 class="text-sm max-sm:text-xs">Amazon Delivery</h5>
+                  <small>Delivery in 2 - 3 days</small>
+                </div>
+                <h5 class="text-red-700 max-sm:text-xs ml-auto">
+                  Free Delivery
+                </h5>
+              </div>
+              <!-- deli2 -->
+              <div
+                class="flex flex-row items-center gap-3 border-2 border-gray-300 rounded py-1 px-1"
+              >
+                <img
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/fluency/48/ups.png"
+                  alt="ups"
+                />
+                <div class="flex flex-col">
+                  <h5 class="text-sm max-sm:text-xs md:text-sm">
+                    Amazon Delivery
+                  </h5>
+                  <small>Delivery in 2 - 3 days</small>
+                </div>
+                <h5 class="text-red-700 max-sm:text-xs ml-auto">
+                  Free Delivery
+                </h5>
+              </div>
+              <!-- deli3 -->
+              <div
+                class="flex flex-row items-center gap-10 border-2 border-gray-300 rounded py-1 px-1"
+              >
+                <img
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/color/48/express.png"
+                  alt="express"
+                />
+                <div class="flex flex-col">
+                  <h5 class="text-sm max-sm:text-xs">Amazon Delivery</h5>
+                  <small>Delivery in 2 - 3 days</small>
+                </div>
+                <h5 class="text-red-700 max-sm:text-xs ml-auto">
+                  Free Delivery
+                </h5>
+              </div>
+              <!-- deli4 -->
+              <div
+                class="flex flex-row items-center gap-10 border-2 border-gray-300 rounded py-1 px-1"
+              >
+                <img
+                  width="30"
+                  height="40"
+                  src="https://img.icons8.com/color/48/fedex.png"
+                  alt="fedex"
+                />
+                <div class="flex flex-col">
+                  <h5 class="text-sm max-sm:text-xs">Amazon Delivery</h5>
+                  <small>Delivery in 2 - 3 days</small>
+                </div>
+                <h5 class="text-red-700 max-sm:text-xs ml-auto">
+                  Free Delivery
+                </h5>
+              </div>
+            </div>
+            <div class="flex flex-row gap-10 items-center">
+              <h5>
+                Shipping
+                <address></address>
+              </h5>
+              <i class="fa-solid fa-location-dot" style="color: #008a02"></i>
+            </div>
+            <form class="flex flex-col gap-3">
+              <label for="countries" class="text-sm text-black"
+                >Select your country</label
+              >
+              <select
+                id="countries"
+                class="border-gray-300 text-gray-900 text-sm rounded block w-full border-2 border-gray-300 p-2.5"
+              >
+                <option>Cambodia</option>
+                <option>Canada</option>
+                <option>France</option>
+                <option>Germany</option>
+              </select>
+              <div class="flex flex-row w-full gap-5">
+                <div class="w-full">
+                  <label class="first-name block text-sm text-gray-900"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    class="w-full border-2 border-gray-300 p-2.5 text-sm"
+                    placeholder="First name"
+                  />
+                </div>
+
+                <div class="w-full">
+                  <label class="last-name block text-sm text-gray-900"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                    class="w-full border-2 border-gray-300 p-2.5 text-sm"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                class="w-full border-2 border-gray-300 p-2.5 text-sm"
+                placeholder="Address"
+              />
+              <input
+                type="text"
+                name="apartment"
+                id="apartment"
+                class="w-full border-2 border-gray-300 p-2.5 text-sm"
+                placeholder="Apartment"
+              />
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                class="w-full border-2 border-gray-300 p-2.5 text-sm"
+                placeholder="Phone"
+              />
+            </form>
+          </div>
+          <div
+            class="flex flex-col h-full w-full gap-5 border-2 border-gray-300 my-10 px-10 py-10 rounded"
+          >
+            <div
+              class="flex flex-row w-full gap-5 items-center border-2 border-gray-300 rounded"
+            >
+              <img src="./icon/master card.png" alt="" class="md:w-16" />
+              <div class="flex flex-col w-full justify-center">
+                <p class="mb-2 max-sm:text-xs md:text-sm">
+                  ****&nbsp;&emsp;****&nbsp;&emsp;****&nbsp;&emsp;1235
+                </p>
+                <p class="max-sm:text-xs md:text-sm">
+                  Akanni oluwatobiloba&nbsp;&emsp;&emsp;12/24
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-row w-full gap-5 items-center border-2 border-gray-300 rounded"
+            >
+              <img src="./icon/visa.png" alt="" class="py-3 md:w-16" />
+              <div class="flex flex-col w-full justify-center">
+                <p class="mb-2 max-sm:text-xs md:text-sm">
+                  ****&nbsp;&emsp;****&nbsp;&emsp;****&nbsp;&emsp;1235
+                </p>
+                <p class="max-sm:text-xs md:text-sm">
+                  Akanni oluwatobiloba&nbsp;&emsp;&emsp;12/24
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-full gap-5">
+              <label for="countries" class="text-sm text-black font-extrabold"
+                >Choose your Payment method</label
+              >
+              <select
+                id="countries"
+                class="border-gray-300 text-gray-900 text-sm rounded block w-full border-2 border-gray-300 py-3"
+              >
+                <option>Cambodia</option>
+                <option>Canada</option>
+                <option>France</option>
+                <option>Germany</option>
+              </select>
+              <label for="countries" class="text-sm text-black font-extrabold"
+                >Expiry Date</label
+              >
+              <div class="relative w-full block">
+                <div
+                  class="absolute inset-y-0 end-0 flex items-center pointer-events-none"
+                >
+                  <i
+                    class="fa-solid fa-chevron-down fa-xs pr-2"
+                    style="color: #000000"
+                  ></i>
+                </div>
+                <input
+                  id="datepicker-actions1"
+                  datepicker
+                  datepicker-buttons
+                  datepicker-autoselect-today
+                  type="text"
+                  class="border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full lg:py-5 max-sm:py-3 px-2"
+                />
+              </div>
+              <label for="gift-card" class="text-sm text-black font-extrabold"
+                >Gift Card</label
+              >
+              <div class="flex flex-row gap-3">
+                <input
+                  type="text"
+                  name="gift-card"
+                  id="address"
+                  class="w-full border-2 border-gray-300 p-2.5 text-sm py-3"
+                  placeholder="1234567"
+                />
+                <button class="border-gray-600 py-3 bg-gray-500 px-5 rounded">
+                  Apply
+                </button>
+              </div>
+              <div class="flex flex-col gap-2">
+                <div class="flex flex-row justify-between">
+                  <h5>SubToTal</h5>
+                  <h5>48$</h5>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <h5>VAT(20%)</h5>
+                  <h5>2.5$</h5>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <h5>Total</h5>
+                  <h5>$48.5</h5>
+                </div>
+              </div>
+              <button
+                class="border-gray-600 py-5 bg-blue-700 px-5 rounded font-extrabold lg:text-2xl md:text-xl text-white max-sm:my-3 max-sm:py-3 md:py-3"
+              >
+                Pay now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

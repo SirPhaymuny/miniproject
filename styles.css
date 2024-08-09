@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jolly+Lodger&display=swap');
 
 * {
     color: black;
@@ -6,8 +6,11 @@
 
 .card,
 h2,
-h3 {
+h3,a,h4,span{
     font-family: "Jolly Lodger", system-ui;
+}
+p,.button, .flist,h5{
+    font-family:'JetBrains Mono';
 }
 
 .background-image {
@@ -50,3 +53,22 @@ h3 {
         transform: translateX(0);
     }
 }
+.text-stroke {
+    -webkit-text-stroke: 2px black; 
+    text-stroke: 2px black; 
+}
+
+.tab-content {
+    max-height: 0;
+    transition: max-height 0.5s ease;
+  }
+  input:checked ~ .tab-content {
+    max-height: 100vh;
+  }
+  input:checked + .tab-label .test {
+    background-color: #000;
+  }
+  input:checked + .tab-label .test svg {
+    transform: rotate(180deg);
+    stroke: #fff;
+  }
