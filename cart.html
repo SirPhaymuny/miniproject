@@ -45,6 +45,8 @@
             <button
               type="button"
               class="text-white bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center min-"
+              data-modal-target="top-right-modal"
+              data-modal-toggle="top-right-modal"
             >
               <i
                 class="fa-solid fa-bag-shopping xl:text-3xl lg:text-2xl md:text-xl sm:text-xl max-sm:sm"
@@ -126,23 +128,26 @@
           class="flex lg:flex-col md:order-2 sm:order-2 lg:order-1 items-center justify-center gap-3 cursor-pointer"
         >
           <img
-            src="./image/IMG_5383.webp"
+            id="pre-image1"
+            src="./ripndip/previewimg.webp"
             alt=""
             class="border-dashed border-2 border-gray-200 cursor-pointer w-20 h-20 xl:w-32 xl:h-32"
           />
           <img
-            src="./image/IMG_5383.webp"
+            id="pre-image2"
+            src="./ripndip/previewimg1.webp"
             alt=""
             class="border-dashed border-2 border-gray-200 cursor-pointer w-20 h-20 xl:w-32 xl:h-32"
           />
           <img
-            src="./image/IMG_5383.webp"
+            id="pre-image3"
+            src="./ripndip/previewimg2.webp"
             alt=""
             class="border-dashed border-2 border-gray-200 cursor-pointer w-20 h-20 xl:w-32 xl:h-32"
           />
           <img
             id="pre-image4"
-            src="./image/IMG_5381.webp"
+            src="./ripndip/previewimg3.webp"
             alt=""
             class="border-dashed border-2 border-gray-200 cursor-pointer w-20 h-20 xl:w-32 xl:h-32"
           />
@@ -150,7 +155,7 @@
         <div class="lg:col-span-2 md:order-1 lg:order-2">
           <img
             id="pre-image"
-            src="./image/IMG_5383.webp"
+            src="./ripndip/previewimg.webp"
             alt=""
             class="w-full cursor-pointer"
           />
@@ -161,11 +166,17 @@
           <h2 class="uppercase">is this real jacket (black)</h2>
           <h3>KHR 900,000</h3>
           <h5>Product Size</h5>
-          <div class="flex flex-row space-x-3">
-            <h3 class="bg-black text-white py-1 px-4 rounded">xs</h3>
-            <h3 class="bg-black text-white py-1 px-4 rounded">small</h3>
-            <h3 class="bg-black text-white py-1 px-4 rounded">Medium</h3>
-            <h3 class="bg-black text-white py-1 px-4 rounded">Large</h3>
+          <div class="flex flex-row flex-wrap gap-3">
+            <h3 class="bg-black text-white py-1 lg:px-4 md:px-3 rounded">xs</h3>
+            <h3 class="bg-black text-white py-1 lg:px-4 md:px-3 rounded">
+              small
+            </h3>
+            <h3 class="bg-black text-white py-1 lg:px-4 md:px-3 rounded">
+              Medium
+            </h3>
+            <h3 class="bg-black text-white py-1 lg:px-4 md:px-3 rounded">
+              Large
+            </h3>
           </div>
 
           <div
@@ -185,7 +196,7 @@
             type="button"
             class="text-white bg-black font-medium rounded lg:py-2.5 w-fit px-16 items-center justify-center max-sm:order-6"
           >
-            <a class="text-3xl uppercase w-fit">Add to cart</a>
+            <a class="text-3xl md:text-2xl uppercase w-fit">Add to cart</a>
           </button>
 
           <!-- Top Right Modal -->
